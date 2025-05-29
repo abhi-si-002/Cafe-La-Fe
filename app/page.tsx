@@ -229,7 +229,7 @@ export default function CoffeeShopLanding() {
               </p>
               <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 leading-relaxed">
                 Our skilled baristas craft each drink with precision and care, creating not just coffee, but moments of
-                joy and connection. Whether you're starting your day, taking a break, or meeting friends, we're here to
+                joy and connection. Whether you are starting your day, taking a break, or meeting friends, we are here to
                 make every visit special.
               </p>
               <div className="grid grid-cols-2 gap-4 sm:gap-6">
@@ -347,7 +347,7 @@ export default function CoffeeShopLanding() {
           <div className="text-center mb-8 sm:mb-16 animate-in fade-in slide-in-from-bottom duration-1000">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
             <p className="text-base sm:text-xl text-gray-700 max-w-2xl mx-auto px-4">
-              Don't just take our word for it - hear from our amazing community
+              Do not just take our word for it - hear from our amazing community
             </p>
           </div>
 
@@ -382,7 +382,7 @@ export default function CoffeeShopLanding() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-sm sm:text-base text-gray-700 italic">"{testimonial.text}"</p>
+                  <p className="text-sm sm:text-base text-gray-700 italic">{testimonial.text}</p>
                 </CardContent>
               </Card>
             ))}
